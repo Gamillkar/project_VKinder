@@ -1,6 +1,5 @@
 import requests
-from top_photo import best_photos
-import time
+
 token = '1f83abc61ca775b1ecdb057caf8243323dd7ae9853563d0cc81f93d17f970b1c1a0a03cca52cb8a459a61'
 
 def query_people(data, age_1=None, age_2=None):
@@ -42,15 +41,5 @@ def query_people(data, age_1=None, age_2=None):
     love_res = requests.get(search_love, params=params)
     data = love_res.json()
     data = data['response']['items']
-    people_list = []
-
-    for person in data:
-        link = f'https://vk.com/id{person["id"]}, '
-        photo = best_photos(person["id"])
-
-        result = f'{link} {photo}'
-        people_list.append(result)
-
-        print(result)
 
     return data
