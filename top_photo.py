@@ -2,6 +2,7 @@ import requests
 from operator import itemgetter
 import re
 token = '1f83abc61ca775b1ecdb057caf8243323dd7ae9853563d0cc81f93d17f970b1c1a0a03cca52cb8a459a61'
+import time
 
 def best_photos(id):
     """Формирование топ-3 фото"""
@@ -16,8 +17,22 @@ def best_photos(id):
     }
 
     photo_res = requests.get(url, params=params)
-    data = (photo_res.json())['response']['items']
     list_photo_data = []
+    # print('response' not in photo_res.json())
+
+    if 'response' not in photo_res.json():
+        time.sleep(1)
+        print('ЗАДЕРЖКА')
+        photo_res = requests.get(url, params=params)
+
+        if 'response' not in photo_res.json():
+            time.sleep(1)
+            print('ЗАДЕРЖКА 2 уровня')
+            photo_res = requests.get(url, params=params)
+
+
+
+    data = (photo_res.json())['response']['items']
     for data_photo in data:
         # Т.к. репосты важны и редкие, то введен к ним коэффицент 20
         popularity = data_photo['likes']['count'] + data_photo['comments']['count'] + data_photo['reposts']['count'] * 20

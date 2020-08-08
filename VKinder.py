@@ -13,7 +13,7 @@ def main_block(id, year_from=None, year_to=None):
 
 if __name__ == "__main__":
     #пользователь может самостоятельно указать диапазон возраста
-    main_block('51960836', 26, 26)
+    main_block('gamillkar', 23, 35)
 
 
 
