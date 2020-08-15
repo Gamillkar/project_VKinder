@@ -1,6 +1,5 @@
 [
     {
-        "id": 3,
         "link": "https://vk.com/id22851406",
         "photo": [
             "https://sun1-90.userapi.com/c637819/v637819406/3c66b/iNj0-M2Bwhw.jpg",
@@ -10,17 +9,15 @@
         "favorite": 0
     },
     {
-        "id": 3,
         "link": "https://vk.com/id363887574",
         "photo": [
             "https://sun1-88.userapi.com/c846218/v846218054/1de976/I3ujfTkB3f8.jpg",
             "https://sun1-90.userapi.com/c853520/v853520618/16c4f/MxkSvL7ocno.jpg",
             "https://sun1-92.userapi.com/c852032/v852032420/102970/deH2T3EIdg8.jpg"
         ],
-        "favorite": 0
+        "favorite": 1
     },
     {
-        "id": 3,
         "link": "https://vk.com/id12472209",
         "photo": [
             "https://sun9-41.userapi.com/c837433/v837433209/d8b/PUx6anXOibc.jpg",
@@ -30,7 +27,6 @@
         "favorite": 0
     },
     {
-        "id": 3,
         "link": "https://vk.com/id2734962",
         "photo": [
             "https://sun1-14.userapi.com/c853528/v853528862/107fbe/UBtVykbAnbA.jpg",
@@ -40,7 +36,6 @@
         "favorite": 0
     },
     {
-        "id": 3,
         "link": "https://vk.com/id13458042",
         "photo": [
             "https://sun1-21.userapi.com/c836632/v836632042/488ac/nR7xHUdF6oI.jpg",
@@ -50,7 +45,6 @@
         "favorite": 0
     },
     {
-        "id": 3,
         "link": "https://vk.com/id14354823",
         "photo": [
             "https://sun1-83.userapi.com/c636320/v636320823/1c81c/ce8u5J5Y7OY.jpg",
@@ -59,7 +53,6 @@
         "favorite": 0
     },
     {
-        "id": 3,
         "link": "https://vk.com/id2615791",
         "photo": [
             "https://sun9-28.userapi.com/c629511/v629511791/1b343/090MEa6jsj8.jpg",
@@ -69,7 +62,6 @@
         "favorite": 0
     },
     {
-        "id": 3,
         "link": "https://vk.com/id16559717",
         "photo": [
             "https://sun9-42.userapi.com/c308225/v308225717/58b/PuC_UxpEWkQ.jpg",
@@ -79,7 +71,6 @@
         "favorite": 0
     },
     {
-        "id": 3,
         "link": "https://vk.com/id55136424",
         "photo": [
             "https://sun9-66.userapi.com/c307210/v307210424/38d4/KZ1kOVWUQZg.jpg",
@@ -89,12 +80,20 @@
         "favorite": 0
     },
     {
-        "id": 3,
         "link": "https://vk.com/id92031703",
         "photo": [
             "https://sun9-56.userapi.com/c4231/u92031703/114567885/z_5168f38a.jpg",
             "https://sun9-56.userapi.com/c9828/u92031703/-6/m_8b2aed0b.jpg",
             "https://sun9-74.userapi.com/c301709/v301709703/5f9/in8RxI3671k.jpg"
+        ],
+        "favorite": 0
+    },
+    {
+        "link": "https://vk.com/id225090124",
+        "photo": [
+            "https://sun9-35.userapi.com/c627231/v627231124/1287d/rRNHmg062zs.jpg",
+            "https://sun9-9.userapi.com/bluaU5omts083RAbAAjQ11_U9aXT-zaCBGD0bQ/NOlANjDHcPo.jpg",
+            "https://sun9-35.userapi.com/7p76u_NHW5Pf1GEqK5fhtlzmTItrhO3jadMdnw/bBFKTOpRInk.jpg"
         ],
         "favorite": 0
     }
